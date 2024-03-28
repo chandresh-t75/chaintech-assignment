@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className=' bg-black text-white flex justify-between max-md:px-[20px] md:justify-around h-[60px] items-center border-b-[1px] border-b-slate-300'>
         <div>
             <a href="/">
-                <img src="/Group.svg" alt="" className='w-[120px]'/>
+                <img src="/Group.svg" alt="" className='w-[120px]' loading='lazy'/>
             </a>
         </div>
         <div className='hidden md:flex gap-8'>

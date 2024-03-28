@@ -5,13 +5,13 @@ const Card = ({id,title1,title2,img}) => {
   return (
     <div id={id} className='w-[250px] bg-[#00F0FF]  py-[10px] border-2 border-black rounded-lg'>
         <div className='px-[10px] flex gap-1 items-center pb-1'>
-            <img src="c.svg" alt=""  className='bg-black h-[25px] p-[3px] rounded-full '/>
+            <img src="c.svg" alt=""  className='bg-black h-[25px] p-[3px] rounded-full ' loading='lazy'/>
             <h1 className='font-[14px]'>Join Development</h1>
         </div>
         <hr className='h-[3px] bg-black'/>
         <div className=' flex flex-col items-stretch justify-center text-center border-b-[2px] border-black '>
             <h1 className='font-semibold pt-8 text-[18px]'>{title1} <br />{title2}</h1>
-            <img src={img} alt=""  className='w-[240px] h-[190px] -mb-[25px]' />
+            <img src={img} alt=""  className='w-[240px] h-[190px] -mb-[25px]' loading='lazy'/>
 
         </div>
 
