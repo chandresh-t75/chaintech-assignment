@@ -1,0 +1,53 @@
+
+export const CardItems=[
+     
+    {
+        id:1,
+        title1:"Blockchain",
+        title2:"Development",
+        img:"/blockchain2.svg"
+    },
+    {
+        id:2,
+        title1:"Blockchain",
+        title2:"Development",
+        img:"/blockchain.svg"
+    },
+    {
+        id:3,
+        title1:"Security",
+        title2:"AAS",
+        img:"/security.svg"
+    },
+    {
+        id:4,
+        title1:"Motion",
+        title2:"Graphic",
+        img:"/motion.svg"
+    },
+    {
+        id:5,
+        title1:"Blockchain",
+        title2:"Development",
+        img:"/blockchain2.svg"
+    },
+    {
+        id:6,
+        title1:"Blockchain",
+        title2:"Development",
+        img:"/blockchain.svg"
+    },
+    {
+        id:7,
+        title1:"Security",
+        title2:"AAS",
+        img:"/security.svg"
+    },
+    {
+        id:8,
+        title1:"Motion",
+        title2:"Graphic",
+        img:"/motion.svg"
+    },
+
+]
